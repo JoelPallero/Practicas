@@ -1,0 +1,10 @@
+.caps {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0 10px;
+}

@@ -1,0 +1,17 @@
+.introduction{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    .caps{
+        margin: 10px 0;
+    }
+}
+
+.site-title,
+.site-title h2{
+    color: #212121;
+    margin: 0;
+}

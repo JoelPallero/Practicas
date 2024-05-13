@@ -1,0 +1,157 @@
+/*
+===============
+Fonts
+===============
+*/
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+/*
+===============
+Variables
+===============
+*/
+:root {
+    /* Font Family */
+    --bg-pry: #f0f0f0;
+    --ff-primary: 'Maven Pro', sans-serif;
+    --ff-secondary: 'Montserrat', sans-serif;
+
+    /* font color */
+    --title-main-color: #0a072e;
+    --title-gray: #353535;
+    --experience-color: #324bb88f;
+    --color-subtitle: #212121;
+    --par-color: #575757;
+    --parr-btn-color: #dddddd;
+    --btn-client-color: #dddddd;
+    --color-link: #212121;
+    --tablets-color: #ffffff;
+
+    /* social icons */
+    --gh-color: #83319c;
+    --li-color: #324bb8;
+    --bg-dwld-color: #324bb89d;
+    --bg-chevron-color: #5973e9e5;
+
+    /* bg colors */
+    --bg-img-color: #324bb83b;
+    --bg-chk-icon: #2c8528;
+    --bg-reset-color: #2b3c8b;
+    --bg-header-color: #a2b3fff1;
+    --br-btn-color: #0a072e;
+    --br-card-color: #212121;
+    --bg-form: #ffffff;
+
+    /* border color */
+    --border-color: #cacaca;
+}
+
+/* Body */
+
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: var(--ff-primary, --ff-secondary);
+    background: var(--bg-pry);
+    color: var(--title-gray);
+    line-height: 1.5;
+    font-size: 0.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-family: var(--ff-primary);
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.35rem;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 0.875rem;
+}
+
+p {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.paragraph{
+    color: var(--par-color);
+}
+
+img {
+    width: 100%;
+}
+
+/* General classes */
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.sombreado {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* After FX*/
+
+.profile::after,
+.experience::after,
+.container__game::after,
+.questions::after {
+    content: "";
+    display: block;
+    width: 90%;
+    height: 2px;
+    border-bottom: 3px dotted var(--bg-dwld-color);
+    margin: 40px auto;
+    
+} 

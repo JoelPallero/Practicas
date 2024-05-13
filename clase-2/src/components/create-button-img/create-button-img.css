@@ -1,0 +1,26 @@
+.dark-mode-icon {
+    position: absolute;
+    width: 36px;
+}
+
+.moon {
+    display: none;
+    fill: var(--bg-svg-color);
+}
+
+.sun {
+    display: block;
+    fill: #dddddd;
+}
+
+.dark-mode .site-title h2 {
+    color: var(--experience-color);
+}
+
+.dark-mode .sun{
+    display: none;
+}
+
+.dark-mode .moon{
+    display: block;
+}

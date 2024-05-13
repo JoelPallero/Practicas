@@ -1,0 +1,56 @@
+.email-container{
+    width: 300px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: var(--bg-dwld-color);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.email-container:active .check-icon,
+.email-container:focus .check-icon{
+    display: block;
+}
+
+.email-container:active .copy-icon,
+.email-container:focus .copy-icon{
+    opacity: 0.1;
+}
+
+.icons-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    float: right;
+    right: 20px;
+}
+
+.ck-symbol{
+    position: absolute;
+    width: 30px;
+}
+
+.copy-icon{
+    opacity: 1;
+}
+
+.check-icon{
+    opacity: 0;
+}
+
+.copy-icon-clicked{
+    opacity: .3;
+}
+
+.check-icon-clicked{
+    opacity: 1;
+} 

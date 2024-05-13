@@ -1,0 +1,85 @@
+{
+    "Jobs": [
+      {
+        "name": "corazón sano",
+        "job": "web developer",
+        "url": "https://corazonsano.com.ar",
+        "description": "I designed and programmed this website according to the client's needs. A virtual course academy was made using an LMS plugin.",
+        "webImg": "../src/assets/jobs/cs.png",
+        "tools": ["html", "css", "javascript", "wordpress", "masterstudy" ]
+      },
+      {
+        "name": "hacer financier",
+        "job": "web developer",
+        "url": "https://hacer.com.ar",
+        "description": "I designed and developed the website, according to the client's requirements, and WordPress was used at the client's request as well.",
+        "webImg": "../src/assets/jobs/hacer.png",
+        "tools": ["html", "css", "wordpress" ]
+      },
+      {
+        "name": "misiones - cita con la vida",
+        "job": "web developer",
+        "url": "https://misionescitaconlavida.com.ar",
+        "description": "I designed and developed the website, according to the client's requirements, and WordPress was used at the client's request as well.",
+        "webImg": "../src/assets/jobs/misiones.png",
+        "tools": ["html", "css", "wordpress" ]
+      },
+      {
+        "name": "gamax",
+        "job": "web developer",
+        "url": "https://gamax.com.ar",
+        "webImg": "../src/assets/jobs/gamax.png",
+        "description": "I designed and developed the website, according to the client's requirements, and WordPress was used at the client's request as well, and woocomerce plugin.",
+        "tools": ["html", "css", "wordpress", "woocommerce"]
+      },
+      {
+        "name": "fundacion esperanza",
+        "job": "web developer",
+        "url": "https://fundacionesperanza.com.ar",
+        "description": "I designed and developed the website, according to the client's requirements, and WordPress was used at the client's request as well.",
+        "webImg": "../src/assets/jobs/fundacionesperanza.png",
+        "tools": ["html", "css", "wordpress" ]
+      },
+      {
+        "name": "maranatha argentina",
+        "job": "web errors correction",
+        "url": "https://hacer.com.ar",
+        "description": "Implemented error fixes to enhance website functionality, ensuring seamless user experience.",
+        "webImg": "../src/assets/jobs/maranatha.png",
+        "tools": ["html", "css", "wordpress" ]
+      }
+    ],
+    "tools": {
+      "html": {
+        "name": "HTML",
+        "icon": "../src/assets/tools/html.svg",
+        "class": ""
+      },
+      "css": {
+        "name": "CSS",
+        "icon": "../src/assets/tools/css.svg",
+        "class": ""
+      },
+      "javascript": {
+        "name": "JavaScript",
+        "icon": "../src/assets/tools/javascript.svg",
+        "class": ""
+      },
+      "wordpress": {
+        "name": "Wordpress",
+        "icon": "../src/assets/tools/wordpress.svg",
+        "class": "wordpress"
+      },
+      "woocommerce": {
+        "name": "WooCommerce",
+        "icon": "../src/assets/tools/woocommerce.svg",
+        "class": "woocommerce"
+      },
+      "masterstudy": {
+        "name": "MasterStudy",
+        "icon": "../src/assets/tools/masterstudy.svg",
+        "class": ""
+      }
+    }
+  }
+  
