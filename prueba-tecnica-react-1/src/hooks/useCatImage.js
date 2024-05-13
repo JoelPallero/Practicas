@@ -29,7 +29,6 @@ export function useCatImage ({fact}) {
             .then(res => {
                 const {url}  = res;
                 setImgUrl(url);
-                console.log(url);
             }
         )
     },[fact]);

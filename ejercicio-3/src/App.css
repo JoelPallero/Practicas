@@ -1,0 +1,22 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    margin: 0;
+    gap: 16px;
+}
+
+.section{
+    width: 100%;
+    height: auto;
+    border: 1px solid #dddddd;
+    border-radius: 7px;
+    padding: 0 10px;
+}
