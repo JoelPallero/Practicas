@@ -1,0 +1,28 @@
+[
+    {
+      "id": "a",
+      "text": "Muy bien",
+      "score": 4
+    },
+    {
+      "id": "b",
+      "text": "Bien",
+      "score": 3
+    },
+    {
+      "id": "c",
+      "text": "Regular",
+      "score": 2
+    },
+    {
+      "id": "d",
+      "text": "Mal",
+      "score": 1
+    },
+    {
+      "id": "e",
+      "text": "Muy mal",
+      "score": 0
+    }
+  ]
+  

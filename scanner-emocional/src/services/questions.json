@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "question": "¿Cual es tu estado emocional actual?",
+      "weight": 0.3
+    },
+    {
+      "id": 2,
+      "question": "¿Cómo te calificarías en cuanto a saber gestionar tus emociones (como el enojo, la tristeza, el miedo) en momentos particulares?",
+      "weight": 0.4
+    },
+    {
+      "id": 3,
+      "question": "¿Estás conforme con tu estado emocional actual?",
+      "weight": 0.5
+    },
+    {
+      "id": 4,
+      "question": "¿Cómo reaccionás cuando te dicen algo que no es de tu agrado?",
+      "weight": 0.8
+    }
+]
